@@ -3,9 +3,9 @@ import "./SlideShow.scss";
 
 const SlideShow = () => {
     const images = [
-        "../images/polo2.png",
-        "../images/polo3.png",
-        "../images/Polo1.jpg",
+      "https://cdn.oneesports.gg/cdn-data/2023/10/LeagueofLegends_T1_Faker_Gumayusi_Keria_Oner_Zeus_GQKorea_Suits_Pictorial2-1024x576.jpg",
+      "https://cdn.oneesports.gg/cdn-data/2023/10/LeagueofLegends_Faker_RalphLauren_Custom_Model_WallpaperSuit-1024x576.jpg",
+      "https://cdn.oneesports.gg/cdn-data/2023/10/LeagueofLegends_Faker_PoloRalphLauren_Custom_GQKorea_Pictorial-1024x576.jpg",
       ];
   const [index, setIndex] = useState(0);
   const delay = 10000;
