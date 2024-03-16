@@ -1,0 +1,24 @@
+.container{
+    padding-left: 4rem;
+    .title_wrapper {
+      width: 90%;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      padding: 2rem 0;
+      .title_text {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: black;
+      }
+      .title_button {
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: var(--pink);
+        padding: 1rem 3rem;
+        border-radius: 7px;
+        color: var(--gray);
+        cursor: pointer;
+      }
+    }
+}

@@ -1,0 +1,83 @@
+.categories{
+  display: flex;
+  flex-direction: row;
+  margin: 5rem 0;
+  .box_container{
+    position: relative;
+    width: 50vw;
+    height: 45rem;
+    overflow: hidden;
+    img{
+      width: 100%;
+      object-fit: cover;
+      height: 45rem;
+      transition: 1s;
+    }
+    &.cate_one{
+      &:hover{
+        .btn_left{
+          position: absolute;
+          bottom: 7rem;
+          left: 5rem;
+          animation: tranLeft 1.5s forwards;
+        }
+        .image_left{
+          scale: 1.05;
+          transition: 1s;
+        }
+      }
+    }
+    &.cate_two{
+      transition: 2s;
+      &:hover{
+        .btn_right{
+          position: absolute;
+          bottom: 7rem;
+          right: 5rem;
+          animation: tranRight 1.5s forwards;
+          transition: 2s;
+        }
+        .image_right{
+          scale: 1.05;
+          transition: 1s;
+        }
+      }
+    }
+    button{
+      cursor: pointer;
+      padding: 1rem 2rem;
+      border-radius: 5px;
+      background-color: white;
+      font-size: 1rem;
+      font-weight: 700;
+      &.btn_left{
+        position: absolute;
+        bottom: 7rem;
+        left:-15rem;
+      }
+      &.btn_right{
+        position: absolute;
+        bottom: 7rem;
+        right:-15rem;
+      }
+    }
+  }
+}
+@keyframes tranLeft {
+  0% {
+    left: -15rem;
+  }
+
+  100% {
+    left: 5rem;
+  }
+}
+@keyframes tranRight {
+  0% {
+    right: -15rem;
+  }
+
+  100% {
+    right: 5rem;
+  }
+}

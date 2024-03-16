@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+// định nghĩa màu
+:root {
+    --gray: #3f3f3f;
+    --pink: #fca2ae;
+    --purple: #9284ee;
+}
+
+html, body {
+    font-size: 90%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    background: #f7f7f7;
+}
+//reponsive
+@media(max-width:1320px) {
+
+    html {
+        font-size: 75%;
+    }
+
+}
+
+@media(max-width:991px) {
+
+    html {
+        font-size: 60%;
+    }
+    
+}
+
+@media(max-width:792px) {
+    
+ //
+
+}
+
+@media(max-width:450px) {
+
+    html {
+        font-size: 50%;
+    }
+
+ 
+}

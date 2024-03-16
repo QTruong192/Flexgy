@@ -1,0 +1,118 @@
+.community {
+  margin-top: 5rem;
+  .wrap_container {
+    display: flex;
+    flex-direction: row;
+    .box_container {
+      width: 50vw;
+      height: 30rem;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(255, 212, 156);
+      gap: 1rem;
+      h1 {
+        font-size: 2.3rem;
+      }
+      h3 {
+        font-weight: 500;
+        span {
+          font-weight: 700;
+        }
+      }
+      img {
+        width: 100%;
+        object-fit: cover;
+        height: 45rem;
+        transition: 1s;
+      }
+
+      &:hover {
+        img {
+          scale: 1.05;
+          transition: 1s;
+        }
+      }
+
+      button {
+        cursor: pointer;
+        padding: 1rem 2rem;
+        margin: 1rem 0;
+        border-radius: 5px;
+        background-color: white;
+        font-size: 1rem;
+        font-weight: 700;
+      }
+    }
+  }
+  .wrap_title {
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+    align-items: center;
+    margin: 0 4rem;
+    .title_text {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: black;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      span{
+        font-family: 'Dancing Script', cursive;
+        font-size: 2rem;
+      }
+      button {
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: var(--pink);
+        padding: 1rem 3rem;
+        border-radius: 7px;
+        color: var(--gray);
+        cursor: pointer;
+      }
+    }
+    .title_info {
+      button {
+        font-size: 2rem;
+        font-weight: 600;
+        background-color: var(--pink);
+        padding: 0.2rem 0.5rem;
+        border-radius: 7px;
+        color: var(--gray);
+        cursor: pointer;
+        margin: 0 0.2rem;
+      }
+    }
+  }
+  .about_us {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--pink);
+    padding: 4rem 0;
+    h1 {
+      font-size: 3rem;
+      font-family: 'Dancing Script', cursive;
+    }
+    h3 {
+      font-weight: 500;
+      span {
+        font-weight: 700;
+      }
+    }
+    button {
+      cursor: pointer;
+      padding: 1rem 2rem;
+      margin: 1rem 0;
+      border-radius: 5px;
+      background-color: white;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+  }
+}
