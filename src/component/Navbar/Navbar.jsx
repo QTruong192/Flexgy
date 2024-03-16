@@ -6,15 +6,15 @@ import './Navbar.scss'
 
     return (
       <nav>
-        <NavLink to="/" className="collections">Summer vibe collection<span className='special'> 2023</span></NavLink>
-        <NavLink to="/new">new</NavLink>
-        <NavLink to="/bestsellers">best sellers</NavLink>
-        <NavLink to="/shirt">shirt</NavLink>
-        <NavLink to="/jeans">jeans</NavLink>
-        <NavLink to="/jacket">jacket</NavLink>
-        <NavLink to="/cloting-accessories">clothing & accessories</NavLink>
-        <NavLink to="/collections">collections</NavLink>
-        <NavLink to="/sale"><span className='sale'>sale</span></NavLink>
+        <NavLink to="/Flexgy" className="collections">Summer vibe collection<span className='special'> 2023</span></NavLink>
+        <NavLink to="/Flexgy/new">new</NavLink>
+        <NavLink to="/Flexgy/bestsellers">best sellers</NavLink>
+        <NavLink to="/Flexgy/shirt">shirt</NavLink>
+        <NavLink to="/Flexgy/jeans">jeans</NavLink>
+        <NavLink to="/Flexgy/jacket">jacket</NavLink>
+        <NavLink to="/Flexgy/cloting-accessories">clothing & accessories</NavLink>
+        <NavLink to="/Flexgy/collections">collections</NavLink>
+        <NavLink to="/Flexgy/sale"><span className='sale'>sale</span></NavLink>
       </nav>
     );
   

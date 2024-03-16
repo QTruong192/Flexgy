@@ -25,18 +25,18 @@ function App() {
       <Header />
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/product" element={6} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/new" element={<ProductLayout products={products} />} />
-        <Route path="/bestsellers" element={<ProductLayout products={bestSellerFilter} />} />
-        <Route path="/jeans" element={<ProductLayout products={jeansFilter} />} />
-        <Route path="/shirt" element={<ProductLayout products={shirtFilter} />} />
-        <Route path="/jacket" element={<ProductLayout products={jacketFilter} />} />
-        <Route path="/cloting-accessories" element={<ProductLayout products={products} />} />
-        <Route path="/collections" element={<ProductLayout products={collectionsFilter} />} />
-        <Route path="/sale" element={<ProductLayout products={products} />} />
+        <Route path="/Flexgy" element={<Home />} />
+        <Route path="/Flexgy/product" element={6} />
+        <Route path="/Flexgy/login" element={<Login />} />
+        <Route path="/Flexgy/register" element={<Register />} />
+        <Route path="/Flexgy/new" element={<ProductLayout products={products} />} />
+        <Route path="/Flexgy/bestsellers" element={<ProductLayout products={bestSellerFilter} />} />
+        <Route path="/Flexgy/jeans" element={<ProductLayout products={jeansFilter} />} />
+        <Route path="/Flexgy/shirt" element={<ProductLayout products={shirtFilter} />} />
+        <Route path="/Flexgy/jacket" element={<ProductLayout products={jacketFilter} />} />
+        <Route path="/Flexgy/cloting-accessories" element={<ProductLayout products={products} />} />
+        <Route path="/Flexgy/collections" element={<ProductLayout products={collectionsFilter} />} />
+        <Route path="/Flexgy/sale" element={<ProductLayout products={products} />} />
       </Routes>
       <Footer />
     </div>

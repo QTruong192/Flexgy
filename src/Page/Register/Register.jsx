@@ -49,7 +49,7 @@ const Register = () => {
             </button>
             <span className="line">or</span>
             you have account{" "}
-            <NavLink to="/login" className="register">
+            <NavLink to="/Flexgy/login" className="register">
               Login
             </NavLink>
           </form>

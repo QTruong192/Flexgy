@@ -45,7 +45,7 @@ import "./Login.scss";
             </button>
             <span className="line">or</span>
             you don't have account?{" "}
-            <NavLink to="/register" className="register">
+            <NavLink to="/Flexgy/register" className="register">
               Register
             </NavLink>
           </form>

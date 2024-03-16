@@ -10,10 +10,10 @@ const Header = () => {
   return (
     <header>
       <div className="header_left">
-        <NavLink to="/">rewards</NavLink>
-        <NavLink to="/Product">fit guide</NavLink>
+        <NavLink to="/Flexgy">rewards</NavLink>
+        <NavLink to="/Flexgy/Product">fit guide</NavLink>
       </div>
-      <NavLink to="/" className="logo">
+      <NavLink to="/Flexgy" className="logo">
         <GiIceCube className="logo_icon" />
         flex<span>g</span>y
       </NavLink>
@@ -28,13 +28,13 @@ const Header = () => {
           />
           <CiSearch className="search_icon" />
         </div>
-        <NavLink to="/login" className="login wrap-btn">
+        <NavLink to="/Flexgy/login" className="login wrap-btn">
           <div className="tooltip_login">
             <span>Login</span>
           </div>
           <FaRegUser />
         </NavLink>
-        <NavLink to="/cart" className="cart wrap-btn">
+        <NavLink to="/Flexgy/cart" className="cart wrap-btn">
           <div className="tooltip_cart">
             <span>cart</span>
           </div>

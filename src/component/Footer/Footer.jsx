@@ -38,7 +38,7 @@ const Footer = () => {
           <NavLink>careers</NavLink>
         </div>
         <div className="address_detail sub_info">
-          <h1 to="/" className="logo">
+          <h1 to="/Flexgy" className="logo">
             <GiIceCube className="logo_icon" />
             flexgy
           </h1>
