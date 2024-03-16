@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Flexgy/static/css/main.7f31085d.css",
-    "main.js": "/Flexgy/static/js/main.bcd0d82f.js",
+    "main.js": "/Flexgy/static/js/main.4d98a595.js",
     "index.html": "/Flexgy/index.html",
     "main.7f31085d.css.map": "/Flexgy/static/css/main.7f31085d.css.map",
-    "main.bcd0d82f.js.map": "/Flexgy/static/js/main.bcd0d82f.js.map"
+    "main.4d98a595.js.map": "/Flexgy/static/js/main.4d98a595.js.map"
   },
   "entrypoints": [
     "static/css/main.7f31085d.css",
-    "static/js/main.bcd0d82f.js"
+    "static/js/main.4d98a595.js"
   ]
 }
