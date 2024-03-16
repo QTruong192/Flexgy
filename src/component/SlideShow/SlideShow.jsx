@@ -18,7 +18,6 @@ const SlideShow = () => {
 
   useEffect(() => {
     resetTimeout();
-
     timeoutRef.current = setTimeout(
       () =>
         setIndex((prevIndex) =>
@@ -26,11 +25,10 @@ const SlideShow = () => {
         ),
       delay
     );
-
     return () => {
       resetTimeout();
     };
-  }, [index]);
+  }, [index, images.length]);
 
   return (
     <div className="slideshow">
